@@ -24,42 +24,51 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="cmdAlta" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cmdEliminar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jLabel1" min="-2" pref="53" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel1" min="-2" pref="53" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel3" min="-2" pref="78" max="-2" attributes="0"/>
+                                          <Component id="jLabel2" min="-2" pref="78" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jLabel3" min="-2" pref="78" max="-2" attributes="0"/>
-                                  <Component id="jLabel2" min="-2" pref="78" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel5" min="-2" pref="78" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" pref="107" max="32767" attributes="0"/>
+                                  <Component id="jLabel6" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" alignment="0" max="32767" attributes="0"/>
                               </Group>
-                              <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jLabel5" min="-2" pref="78" max="-2" attributes="0"/>
-                          <Component id="jLabel4" pref="107" max="32767" attributes="0"/>
-                          <Component id="jLabel6" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
-                          <Component id="jLabel7" alignment="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtCedula" min="-2" pref="128" max="-2" attributes="0"/>
+                          <Component id="txtDepartamento" min="-2" pref="128" max="-2" attributes="0"/>
+                          <Component id="txtCiudad" min="-2" pref="128" max="-2" attributes="0"/>
+                          <Component id="txtDireccionResidencial" min="-2" pref="128" max="-2" attributes="0"/>
+                          <Component id="txtEmail" min="-2" pref="128" max="-2" attributes="0"/>
+                          <Component id="txtLugarExpedicion" min="-2" pref="128" max="-2" attributes="0"/>
+                          <Component id="txtFechaCredito" min="-2" pref="128" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
                   </Group>
-              </Group>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="txtCedula" min="-2" pref="128" max="-2" attributes="0"/>
-                  <Component id="txtDepartamento" min="-2" pref="128" max="-2" attributes="0"/>
-                  <Component id="txtCiudad1" min="-2" pref="128" max="-2" attributes="0"/>
-                  <Component id="txtDireccionResidencial" min="-2" pref="128" max="-2" attributes="0"/>
-                  <Component id="txtEmail" min="-2" pref="128" max="-2" attributes="0"/>
-                  <Component id="txtLugarExpedicion" min="-2" pref="128" max="-2" attributes="0"/>
-                  <Component id="txtFechaCredito1" min="-2" pref="128" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="237" max="32767" attributes="0"/>
           </Group>
@@ -76,7 +85,7 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel2" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                  <Component id="txtCiudad1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCiudad" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -96,14 +105,19 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel5" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                  <Component id="txtFechaCredito1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFechaCredito" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel7" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                   <Component id="txtLugarExpedicion" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="247" max="32767" attributes="0"/>
+              <EmptySpace pref="157" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cmdEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmdAlta" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -140,9 +154,9 @@
         <Property name="text" type="java.lang.String" value="Departamento:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtCiudad1">
+    <Component class="javax.swing.JTextField" name="txtCiudad">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCiudad1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCiudadActionPerformed"/>
       </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -192,9 +206,31 @@
         <Property name="text" type="java.lang.String" value="Lugar Expedici&#xf3;n:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtFechaCredito1">
+    <Component class="javax.swing.JTextField" name="txtFechaCredito">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFechaCredito1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFechaCreditoActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="cmdEliminar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eliminar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdEliminarActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="cmdAlta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alta"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdAltaActionPerformed"/>
       </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
