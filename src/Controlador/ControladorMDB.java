@@ -23,8 +23,8 @@ public class ControladorMDB implements ActionListener{
     public ControladorMDB(FrmVista view, MDB model){
        this._model=model;
        this._view=view;
-        this._view.cmdAlta.addActionListener(this);//se obtiene el control sobre el botón alta del formulario
-this._view.cmdEliminar.addActionListener(this);//se obtiene el control de botón eliminar
+       this._view.cmdAlta.addActionListener(this);//se obtiene el control sobre el botón alta del formulario
+       this._view.cmdEliminar.addActionListener(this);//se obtiene el control de botón eliminar
 }
 @Override
 //En este método se ΗatrapaΗ la interacción del usuario
